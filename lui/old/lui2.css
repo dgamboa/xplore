@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  background-color: #333;
+  height: 100%;
+  width: 100%;
+  display: block;
+  position: fixed;
+}
+
+#lui {
+  position: relative;
+  background-color: #333;
+  line-height: 40px;
+}
+
+#view iframe {
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  background-color: #00F;
+  height: 100%;
+  width: 87%;
+  border: 2px inset #AAA;
+  border-left: none;
+  border-bottom: none;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}

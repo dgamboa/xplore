@@ -1,0 +1,248 @@
+@font-face {
+  font-family: 'Quicksand_Light';
+  src: url('../Quicksand_Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Quicksand_Book';
+  src: url('../Quicksand_Book.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+div.main {
+  position: relative;
+  margin: auto auto;
+  width: 1000px;
+  height: 100%;
+  background-color: #000;
+}
+
+#brand {
+  color: #FFF;
+  font-size: 38px;
+  font-family: 'Quicksand_Light', verdana;
+  position: absolute;
+  left: 22px;
+}
+
+#login {
+  position: absolute;
+  top: 38px;
+  left: 329px;
+  width: 500px;
+  /* Style for login fields font*/
+  color: #AAA;
+  font-family: 'Quicksand_Light', verdana;
+  font-size: 14px;
+}
+
+div.login-email {
+  float: left;
+  margin-right: 15px;
+}
+
+input.login-field {
+  background-color: #FAE6C2;
+  border-color: #CCC;
+}
+
+#login_button {
+  position: absolute;
+  top: 14px;
+  left: 283px;
+  height: 21px;
+  cursor: pointer;
+  background-color: #EEE;
+  border: 1px outset #888;
+  border-radius: 2px;
+}
+
+#login_button:hover {
+  box-shadow: 0px 0px 20px 0px #FFF;
+}
+
+#login_button:active {
+  border: 1px inset #888;
+  background-color: #CCC;
+}
+
+#earth {
+  position: absolute;
+  top: 130px;
+  left: 574px;
+  height: 360px;
+}
+
+#tagline {
+  position: absolute;
+  left: 22px;
+  top: 200px;
+  color: #42C0FB;
+  font-size: 18px;
+  font-family: 'Quicksand_Light', verdana;
+}
+
+#tagline_subtitle {
+  position: absolute;
+  left: 22px;
+  top: 260px;
+  color: #0FF;
+  font-size: 15px;
+  font-family: 'Quicksand_Light', verdana;
+}
+
+#signup_form {
+  position: absolute;
+  top: 380px;
+  left: 92px;
+  height: 300px;
+  width: 480px;
+  border-radius: 6px;
+  background-color: #111;
+  box-shadow: 0px 0px 30px 4px #222;
+  /* Style for signup fields font*/
+  color: #AAA;
+  font-family: 'Quicksand_Light', verdana;
+  font-size: 13px;
+}
+
+div.signup hr {
+  border: 0;
+  height: 2px;
+  margin: 10px 0;
+  position:relative;
+background: -moz-linear-gradient(left, rgba(50,50,50,0) 0%, rgba(50,50,50,0) 15%, rgba(50,50,50,0.65) 50%, rgba(50,50,50,0) 85%, rgba(50,50,50,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(50,50,50,0)), color-stop(15%,rgba(50,50,50,0)), color-stop(50%,rgba(50,50,50,0.65)), color-stop(85%,rgba(50,50,50,0)), color-stop(100%,rgba(50,50,50,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, rgba(50,50,50,0) 0%,rgba(50,50,50,0) 15%,rgba(50,50,50,0.65) 50%,rgba(50,50,50,0) 85%,rgba(50,50,50,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, rgba(50,50,50,0) 0%,rgba(50,50,50,0) 15%,rgba(50,50,50,0.65) 50%,rgba(50,50,50,0) 85%,rgba(50,50,50,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, rgba(50,50,50,0) 0%,rgba(50,50,50,0) 15%,rgba(50,50,50,0.65) 50%,rgba(50,50,50,0) 85%,rgba(50,50,50,0) 100%); /* IE10+ */
+background: linear-gradient(left, rgba(50,50,50,0) 0%,rgba(50,50,50,0) 15%,rgba(50,50,50,0.65) 50%,rgba(50,50,50,0) 85%,rgba(50,50,50,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ff0000', endColorstr='#00ff0000',GradientType=1 ); /* IE6-9 */
+}
+
+div.signup hr:before {
+    content: "";
+    display: block;
+    border-top: solid 1px rgba(50,50,50,0.300);
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+}
+
+div.signup h3 {
+  margin: 12px 16px 12px 16px;
+  color: #CCC;
+  font-size: 15px;
+  font-family: 'Quicksand_Book', verdana;
+}
+
+div.signup h4 {
+  margin: 16px;
+  color: #777;
+  font-size: 13px;
+  font-family: 'Quicksand_Book', verdana;
+}
+
+.signup-div {
+  margin: 15px 0px;
+}
+
+div.signup label {
+  float: left;
+  clear: left;
+  text-align: right;
+  width: 74px;
+  margin-left: 35px;
+  margin-right: 20px;
+  padding-top: 10px;
+  white-space: nowrap;
+  color: #AAA;
+  font-family: 'Quicksand_Book', verdana;
+}
+
+div.signup input {
+  background-color: #FAE6C2;
+  border-color: #CCC;
+  margin-right: 40px;
+  width: 300px;
+  height: 20px;
+}
+
+#signup_button {
+  width: 120px;
+  height: 30px;
+  margin-top: 4px;
+  margin-left: 180px;
+  /*letter-spacing: 1px;*/
+  color: #CCC;
+  font-size: 13px;
+  font-family: verdana;
+  border: 1px outset #888;
+  border-radius: 3px;
+  background-color: #397D02;
+  /*background-color: #215E21;*/
+  /*background-color: #228B22;*/
+  cursor: pointer;
+}
+
+#signup_button:hover {
+  box-shadow: 0px 0px 20px 1px #888;
+}
+
+#signup_button:active {
+  border: 1px inset #888;
+  background-color: #215E21;
+  /*background-color: #252576;*/
+}
+
+/*.intro {
+  position: absolute;
+  top: 560px;
+  left: 800px;
+  width: 200px;
+  line-height: 25px;
+  color: #444;
+  font-size: 20px;
+  font-family: 'Quicksand_Light', verdana;
+}*/
+
+footer ul {
+  position: absolute;
+  top: 723px;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 160px;
+  list-style: none;
+  font-size: 13px;
+  font-family: 'Quicksand_Light', verdana;
+}
+
+footer ul li a {
+  color: #0FF;
+}
+
+footer ul li a:hover {
+  color: #FFF;
+}

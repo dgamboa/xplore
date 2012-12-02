@@ -1,0 +1,239 @@
+@font-face {
+  font-family: 'Quicksand_Light';
+  src: url('../Quicksand_Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+#top {
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background-color: #333;
+}
+
+#xplore {
+  position: fixed;
+  left: 16px;
+  top: 2px;
+  line-height: 50px;
+  font-family: 'Quicksand_Light', verdana;
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+  color: #FFF;
+  letter-spacing: 2px;
+}
+
+a:hover#xplore {
+  color: #1589FF;
+}
+
+#history-nav {
+  position: absolute;
+  left: 120px;
+  float: left;
+}
+
+.back-for-ref {
+  margin: 0;
+  padding: 3px;
+  color: #FFF;
+  cursor: pointer;
+  background-color: #333;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+:hover.back-for-ref {
+  background-color: #444;
+  border: 1px solid #484848;
+  margin: -1px;
+  border-radius: 3px;
+  box-shadow: inset 1px 1px #575757;
+}
+
+#search-form {
+  clear: left;
+  position: absolute;
+  left: 189px;
+}
+
+button#url-nav-button {
+  margin-left: -6px;
+  height: 21px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}
+
+a#title {
+  position: fixed;
+  left: 750px;
+  margin: 0px;
+  padding: 0 7px;
+  font-size: 15px;
+  font-family: 'Quicksand_Light', verdana;
+  font-weight: 100;
+  line-height: 50px;
+  color: #AAA;
+}
+
+a:hover#title {
+  background-color: #555;
+  color: #FFF;
+}
+
+#play_pause {
+  position: fixed;
+  left: 970px;
+  color: #888;
+  margin: 0px;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+#record_stop {
+  position: fixed;
+  color: #888;
+  margin: 0px;
+  margin-top: 16px;
+  cursor: pointer;
+  left: 1005px;
+}
+
+#time {
+  position: fixed;
+  left: 1050px;
+  font-size: 15px;
+  font-family: 'Quicksand_Light', verdana;
+  color: #AAA;
+  line-height: 50px;
+  margin: 0px;
+}
+
+a#name {
+  position: fixed;
+  left: 1312px;
+  font-size: 12px;
+  font-family: 'Quicksand_Light', verdana;
+  color: #AAA;
+  line-height: 50px;
+  margin: 3px 0 0 0;
+}
+
+a:hover#name {
+  color: #DDD;
+}
+
+#view iframe {
+  position: fixed;
+  width: 1207px;
+  height: 100%;
+  margin-top: 50px;
+  border: 2px inset #fff;
+  border-left: none;
+  border-bottom: none;
+}
+
+#right {
+  position: fixed;
+  right: 0px;
+  width: 230px;
+  height: 100%;
+  background-color: #333;
+  margin-top: 50px;
+}
+
+#note_text {
+  resize: none;
+}
+
+#take_note {
+  position: fixed;
+  padding: 0px 17px;
+}
+
+button#take {
+  position: fixed;
+  right: 12px;
+  cursor: pointer;
+}
+
+#note_display {
+  position: fixed;
+  top: 203px;
+  right: 14px;
+  width: 186px;
+  height: 258px;
+  padding: 5px;
+  overflow: auto;
+  background-color: #FFF;
+  box-shadow: inset 0px 0px 6px 1px #444;
+  font-size: 11px;
+  font-family: verdana;
+  color: #444;
+}
+
+.note-title {
+  margin-top: 0;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.note {
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.import-export {
+  position: fixed;
+  right: 18px;
+  top: 476px;
+  color: #AAA;
+  font-size: 11px;
+  font-family: verdana;
+}
+
+.import-export a {
+  color: #AAA;
+}
+
+.import-export a:hover {
+  color: #0CF;
+}
+
+#complementary {
+  position: fixed;
+  top: 500px;
+  right: 15px;
+}
+
+a.comp-link {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 11px;
+  font-family: verdana;
+}
+
+a:hover.comp-link {
+  color: #0F0;
+}
+
+.comp-link-desc {
+  color: #AAA;
+  font-size: 11px;
+  font-family: verdana;
+  margin: 0px auto 16px auto;
+  width: 190px;
+}

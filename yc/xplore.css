@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'Quicksand_Light';
+  src: url('Quicksand_Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  background: #fdf5e6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  background: #333;
+  height: 230px;
+  box-shadow: 0px 3px 4px #888;
+}
+
+#title {
+  font-family: 'Quicksand_Light', Helvetica, Arial, sans-serif;
+  color: #fff;
+  font-size: 110px;
+  padding-top: 40px;
+  text-align: center;
+}
+
+#subtitle {
+  font-family: 'Quicksand_Light', Helvetica, Arial, sans-serif;
+  color: #999;
+  font-size: 20px;
+  padding-top: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#mocks {
+  text-align: center;
+  margin-top: -40px;
+  margin-bottom: 100px;
+}
+
+.palette {
+  margin-top: 100px;
+}
+
+.sketch {
+  box-shadow: 0px 0px 4px 1px #ccc;
+  border: 1px solid #aaa;
+}
+
+.description {
+  text-align: center;
+  margin-left: -550px;
+  font-family: 'Quicksand_Light', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  color: 999;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+footer {
+  font-family: 'Quicksand_Light', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+
+footer ul {
+  text-align: center;
+  list-style: none;
+  margin-top: -30px;
+  margin-bottom: 70px;
+}
+
+footer ul li {
+  display: inline;
+  margin-left: 7%;
+  margin-right: 11%;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover { 
+  color: #1d7cf2;
+}
