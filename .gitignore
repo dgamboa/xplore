@@ -1,4 +1,5 @@
 # Ignore the YC application, PDF, and DS_Store
+/other/
 /app*
 /mockups.pdf
 /.DS*
