@@ -1,6 +1,6 @@
 # Xplore
 
-## Xplore is a way to plan and track your web browsing-based learning
+## A way to plan and track your web browsing-based learning
 
 There are two sets of mockups. First I created hand-drawn mockups of the primary parts of the application. Those live [here](http://dgamboa.com/xplore/mockup/mockup.html).
 
