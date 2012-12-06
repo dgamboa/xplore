@@ -2,7 +2,7 @@
 
 ## A way to plan and track your web browsing-based learning
 
-There are two sets of mockups. First I created hand-drawn mockups of the primary parts of the application. Those live [here](http://dgamboa.com/xplore/mockup/mockup.html).
+There are two sets of mockups. First I created hand-drawn mockups of the primary parts of the application. Those live [here](http://dgamboa.com/xplore/mockup.html).
 
 I then began to create live mockups in HTML for a [home page](http://dgamboa.com/xplore/home/index.html) and a [content-browsing interface](http://dgamboa.com/xplore/learn/learn.html).
 
